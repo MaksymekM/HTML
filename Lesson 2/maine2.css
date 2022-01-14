@@ -6,12 +6,13 @@
     width: 500px;
     height: 250px;
     box-shadow: #dac1a3 -35px -40px 50px 15px ;
-
+    margin-bottom: 20px;
 }
+p {margin:0px}
 .block {
     box-sizing: border-box;
     border-left: solid 5px #fe0202;
-    height: 100px;
-    padding: 10px;
+    height: 95px;
+    padding-left: 15px;
+
 }
-p {margin:0px}
