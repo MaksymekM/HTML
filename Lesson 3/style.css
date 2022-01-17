@@ -1,0 +1,33 @@
+#container
+{
+    background: silver;
+    box-sizing: border-box;
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+    flex-direction: column;
+
+}
+.header {
+    align-self: center;
+    width: 1000px;
+    height: 200px;
+    background: orange;
+
+}
+.menu {
+    width: 200px;
+    height: 600px;
+    background: #dc6320;
+}
+.post {
+    width: 700px;
+    height: 290px;
+    background: antiquewhite;
+}
+.footer {
+    align-self: center;
+    width: 1000px;
+    height: 200px;
+    background: orange;
+}
