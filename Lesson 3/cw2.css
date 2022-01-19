@@ -1,0 +1,40 @@
+#container {
+    box-sizing: border-box;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    margin: auto;
+}
+.a {
+    margin: auto;
+    background: silver;
+    width: 1200px;
+    height: 300px;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.bcd-box {
+    display: flex;
+    flex-direction: row;
+}
+.bcd {
+    background: #6496ec;
+    width: 250px;
+    height: 250px;
+}
+.efg-box {
+    display: flex;
+    flex-direction: row;
+}
+.efg {
+    background: aquamarine;
+    width: 250px;
+    height: 250px;
+}
+.h {
+    background: #ff3f3f;
+    width: 250px;
+    height: 500px;
+}
