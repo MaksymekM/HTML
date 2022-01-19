@@ -5,7 +5,7 @@
     row-gap:5px;
     width: 1000px;
     box-sizing: border-box;
-
+    margin: auto;
 }
 .target{
     background: gray;
