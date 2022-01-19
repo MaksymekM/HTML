@@ -1,23 +1,28 @@
 #container {
-    box-sizing: border-box;
-    width: 1000px;
-    height: 500px;
+    width: 1100px;
+    height: 900px;
     display: flex;
+    flex-direction: column;
     margin: auto;
+    row-gap: 5px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 250px;
 }
 .a {
-    margin: auto;
     background: silver;
-    width: 1200px;
+    width: 1015px;
     height: 300px;
 }
 .footer {
     display: flex;
-    flex-wrap: wrap;
+    column-gap: 5px;
 }
 .bcd-box {
     display: flex;
     flex-direction: row;
+    column-gap: 5px;
+    row-gap: 5px;
 }
 .bcd {
     background: #6496ec;
@@ -27,14 +32,20 @@
 .efg-box {
     display: flex;
     flex-direction: row;
+    column-gap: 5px;
 }
 .efg {
     background: aquamarine;
     width: 250px;
     height: 250px;
 }
+.bbox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
 .h {
     background: #ff3f3f;
     width: 250px;
-    height: 500px;
+    height: 505px;
 }
