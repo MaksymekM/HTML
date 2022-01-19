@@ -8,6 +8,7 @@
     row-gap: 1%;
     text-align: center;
     font-size: 50px;
+    color: white;
     line-height: 250px;
 }
 .header {
@@ -17,12 +18,12 @@
 .a {
     width: 50%;
     height: 800px;
-    background: aquamarine;
+    background: #246abb;
 }
 .kabobs {
     width: 100%;
     height: 400px;
-    background: aquamarine;
+    background: #246abb;
 }
 .footer {
     display: flex;
@@ -32,5 +33,5 @@
 .b {
     width: 33%;
     height: 300px;
-    background: aquamarine;
+    background: #18467b;
 }
