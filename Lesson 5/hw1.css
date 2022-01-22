@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     row-gap: 5px;
     column-gap: 5px;
     margin: 0;
@@ -9,6 +8,7 @@ p {
 }
 #container
 {
+    max-width:1000px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -23,39 +23,72 @@ p {
 .top
 {
     display: flex;
+    width: 100%;
 }
 .main {
     display: flex;
+    width: 100%;
+}
+.left   {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.right  {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
 }
 .middle {
     display: flex;
     flex-direction: column;
+    width:60%;
 }
-.smallblock {
-    width: 200px;
+.logo {
+    width: 20%;
     height: 100px;
 }
+.smallblock {
+    height: 100px;
+}
+.smallblock2 {;
+    height: 100px;
+}
+}
+.smallblockmob {
+    display: flex;
+    width: 100%;
+}
 .header {
-    width: 805px;
+    width: 80%;
     height: 100px;
 }
 .navprod {
-    width: 200px;
     height: 800px;
 }
 .bath {
-    width: 600px;
     height: 205px;
 }
 .ad {
-    width: 200px;
     height: 205px;
 }
 .tofb {
-    width:600px;
     height: 800px;
 }
 .footer {
-    width: 1010px;
+    width: 100%;
     height: 200px;
+}
+@media screen and (min-width:900px) {
+    .smallblockmob {
+        display: none;
+    }
+}
+@media screen and (min-width:0px) and (max-width: 900px) {
+    .logo {width: 30%; }
+    .header {width: 70%; }
+    .navprod {width: 100%; height: 100px;}
+    .left {width:100%;display;}
+    .smallblock {display: none}
+
 }
