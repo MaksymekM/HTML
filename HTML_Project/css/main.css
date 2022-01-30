@@ -12,8 +12,8 @@
 :root {
     --black_color: #0B2330;
     --yellow_color: #f9c602;
-    --black_blue_col #375361;
-    --black_real-col #000000;
+    --black_blue_col: #375361;
+    --black_real-col: #000000;
 }
 
 a {
