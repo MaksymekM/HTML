@@ -1,0 +1,29 @@
+.target {
+
+    background: #f8ebcf;
+}
+p {
+    background: #a2fdf6;
+    font-family: "Arial Narrow";
+}
+li {
+    background: #789ade;
+    font-family: "Droid Sans Mono Dotted";
+    color: #ffab02;
+}
+.about {
+    background: #f5cd50;
+}
+.homer {
+    background: #2efff2;
+}
+.bart {
+    background: #ebff70;
+}
+.lisa {
+    background: #ff8902;
+}
+.img{
+    max-width: 400px;
+    min-width: 200px;
+}

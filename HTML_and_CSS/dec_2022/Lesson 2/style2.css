@@ -1,0 +1,42 @@
+.target {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+.widgets, .bigw, .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    font-family: "Fira Code Light";
+
+}
+.widgets {
+    background: #42afde;
+    width: 80%;
+    height:30%;
+
+}
+.bigwbox {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 25%;
+    justify-content: space-between;
+}
+.bigw {
+    width: 30%;
+    height:100%;;
+    background: #2649ff;
+
+}
+.contact {
+    background: #42afde;
+    width: 80%;
+    height:40%;
+}
